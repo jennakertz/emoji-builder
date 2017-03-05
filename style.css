@@ -1,0 +1,241 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 48px;
+	text-align: center;
+	margin-top: 10px;
+
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 10px;
+	font-size: 35px;
+	color: #ff66d9;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 25px;
+	color: #ff80ff;
+}
+
+.modal p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	color: #000000;
+	margin: 10;
+}
+
+.btn {
+	color: #FFFFFF;
+	background-color: #A6AB01;
+}
+
+.btn-form {
+	display: inline-block;
+}
+
+#abouttxt p {
+	font-size: 35px;
+}
+
+.create h3 {
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	border: 0;
+	margin: 0;
+}
+
+.create h2 {
+	/*background-color: #bb33ff;*/
+	background-color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.dropbtn {
+    background-color: #ffffff;
+    width: 50px;
+    cursor: pointer;
+    margin: 20px 20px 0px 0px;	
+    opacity: 20%;
+    text-align: right;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    text-align: right;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    min-width: 160px;
+    height: 50px;
+    vertical-align: middle;
+
+}
+
+.dropdown-content a {
+    color: #737373;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.dropdown-content a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline;
+}
+
+.dropdown:hover .dropbtn {
+    	    -webkit-transform: scale(.9);
+    transform: scale(1.2);
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cc99ff;
+}
+
+#nav li {
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #99ffff;
+    cursor: pointer;
+}
+
+#wrapper {
+    margin: 0 50px 0 50px;
+}
+
+#wrapper .create {
+	display: table;
+	/*width: 100%;*/
+}
+
+#wrapper .aboutus {
+	display: table;
+	/*width: 100%;*/
+	background-color: #ff0066;
+}
+
+.aboutus {
+	
+	padding-top: 10px;
+	background-color: #ffffff;
+}
+
+#aboutimg {
+	display: table-cell;
+	width: 10%;
+	position: relative;
+}
+
+#aboutimg .lenaya .jenna {
+	height: 50%;
+}
+
+#abouttxt {
+	display: table-cell;
+	width: 90%;
+	position: relative;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 0px;
+	vertical-align: middle;
+}
+
+#origin {
+	display: table-cell;
+	width: 40%;
+	position: relative;
+}
+
+#drop {
+	display: table-cell;
+	background-color: #ffffff;	
+	width: 60%;
+	position: relative;
+	outline: #000000;
+}
+
+#drop .h {
+	position: absolute;
+	height: 100%;
+}
+
+#drop .a {
+	z-index: 0;
+}
+#drop .b {
+	z-index: 1;
+}
+#drop .c {
+	z-index: 2;
+}
+#drop .d {
+	z-index: 3;
+}
+
+#origin .h {
+	/*below was causing inability to layer on #drop*/
+	/*position: relative;*/
+	width: 20%;
+}
+
+#origin .head {
+	background-color: #cc99ff;
+	height: 25%;
+}
+
+#origin .eyes {
+	background-color: #99ffff;
+	height: 25%;
+}
+
+#origin .mouth {
+	background-color: #cc99ff;
+	height: 25%;
+}
+
+#origin .acc {
+	background-color: #99ffff;
+	height: 25%;
+}
+
+.seemore img {
+	width: 18%;
+	display: inline-block;
+}
